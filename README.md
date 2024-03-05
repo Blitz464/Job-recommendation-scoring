@@ -47,3 +47,6 @@ Adjust hyperparameters, such as the learning rate, batch size, and dropout rates
 Ensure the dataset (np_train_skills_no_commas.csv) adheres to the required format.
 
 Other files like the Tableau Dashboard is not uploaded yet. Which contains the final visualizations such as top keyword clouds, extrinsic evaluation results, Job similarity scores etc.
+
+Apart from LSTM_model_creation.ipynb, which was inspired by the work done [RemeAjayi](https://github.com/RemeAjayi/ds-job-detective), I took charge of the entire coding process for rest of the notebooks shared in the repo.
+
