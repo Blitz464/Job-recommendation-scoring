@@ -16,7 +16,7 @@ This repository contains code for cleaning & processing data, creating an LSTM-b
 - **data_prep_for_final_model.ipynb**: Jupyter notebook - preparing the data for the model. includes grouping sectors, removing clusters with small sample sizes etc.
 
 ### Model building and validation:
-- **LSTM_model_creation.ipynb**: [Jupyter Notebook containing the code for LSTM model creation.Reference](https://medium.com/@Olohireme/job-skills-extraction-from-data-science-job-posts-38fd58b94675)
+- **LSTM_model_creation.ipynb**: [Reference to source for Jupyter Notebook containing the code for LSTM model creation](https://medium.com/@Olohireme/job-skills-extraction-from-data-science-job-posts-38fd58b94675)
 - **np_train_skills_no_commas.csv**: CSV file containing the training data.
 - **lstm_skill_extractor.h5**: Saved model file.
 - **keyword_extraction_model-main.ipynb**: Code for extracting keywords using the model output and further data processing and cleaning and data manipulation. Includes job similarity score calculation between different job titles.
