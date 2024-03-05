@@ -45,3 +45,5 @@ The model output is used to predict the best job fit for a sample of resume and 
 The code assumes a binary classification task (skill extraction), and the model architecture can be adjusted for different tasks or datasets.
 Adjust hyperparameters, such as the learning rate, batch size, and dropout rates, as needed.
 Ensure the dataset (np_train_skills_no_commas.csv) adheres to the required format.
+
+Other files like the Tableau Dashboard is not uploaded yet. Which contains the final visualizations such as top keyword clouds, extrinsic evaluation results, Job similarity scores etc.
