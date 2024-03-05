@@ -42,11 +42,7 @@ The model's performance is evaluated using accuracy, precision, recall, and a co
 The model output is used to predict the best job fit for a sample of resume and compared the recommendation with actual job the resume was applied for.
 
 ### Additional Notes
-The code assumes a binary classification task (skill extraction), and the model architecture can be adjusted for different tasks or datasets.
-Adjust hyperparameters, such as the learning rate, batch size, and dropout rates, as needed.
-Ensure the dataset (np_train_skills_no_commas.csv) adheres to the required format.
-
-Other files like the Tableau Dashboard is not uploaded yet. Which contains the final visualizations such as top keyword clouds, extrinsic evaluation results, Job similarity scores etc.
+Other files like the Tableau Dashboard is not uploaded yet. Which contains the final visualizations such as top keyword clouds, extrinsic evaluation results on sample resumes, Job similarity scores between different jobs etc.
 
 Apart from LSTM_model_creation.ipynb, which was inspired by the work done [RemeAjayi](https://github.com/RemeAjayi/ds-job-detective), I took charge of the entire coding process for rest of the notebooks shared in the repo.
 
