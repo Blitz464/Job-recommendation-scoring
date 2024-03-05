@@ -9,7 +9,7 @@ This repository contains code for cleaning & processing data, creating an LSTM-b
 - **Data Souce Link.txt**: [Link to raw scraped data with 160K+ job postings from Glassdoor (Kaggle)](https://www.kaggle.com/datasets/andresionek/data-jobs-listings-glassdoor?select=glassdoor.csv).
 - **resume_dataset.csv**: Sample data used to check model performance in job recommendation.
 - **ne_50m_admin_0_countries.shp**: Shapefile used for data visualization and extracting missing coordinates.
-- **glove.6B.100d.txt**: [Pre-trained GloVe word embeddings file reference.](https://medium.com/@Olohireme/job-skills-extraction-from-data-science-job-posts-38fd58b94675
+- **glove.6B.100d.txt**: [Pre-trained GloVe word embeddings file reference.](https://medium.com/@Olohireme/job-skills-extraction-from-data-science-job-posts-38fd58b94675)
 
 ### Data Preparation(notebooks):
 - **translate_desc_to_en.ipynb**: Jupyter notebook containing code for cleaning the raw data. Steps include text translation, fuzzy job title matching, generating coordinates from location name etc.
